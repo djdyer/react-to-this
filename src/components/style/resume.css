@@ -1,0 +1,422 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-image: linear-gradient(rgb(1, 16, 36), rgb(1, 17, 30));
+  border-bottom: 2px solid rgb(69, 196, 255);
+  height: 200px;
+  width: 100%;
+  box-shadow: 0px 5px 50px black;
+  margin-bottom: 100px;
+  position: fixed;
+  z-index: 5;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  margin: 40px;
+}
+
+#name {
+  font-size: 25pt;
+  margin: 0;
+  color: rgb(69, 196, 255);
+}
+
+.logolockup {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#links {
+  font-family: paralucent;
+  letter-spacing: 0.5px;
+  color: rgb(69, 196, 255);
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 50px 0 50px;
+}
+
+#links:hover {
+  font-weight: bolder;
+  text-shadow: 2px 2px 10px rgb(69, 196, 255);
+  filter: dropshadow(rgb(69, 196, 255), off x=-2, off y=0);
+}
+
+#headshot {
+  display: block;
+  width: 40%;
+  height: auto;
+  border-radius: 18px 0 0 18px;
+  filter: grayscale(1);
+}
+
+#headshot:hover {
+  filter: grayscale(0);
+}
+
+.flexprofile {
+  display: flex;
+  width: 70%;
+  margin-top: 275px;
+  padding: 0px;
+}
+
+/* Bio */
+p {
+  font-family: paralucent;
+  font-size: 9.5pt;
+  letter-spacing: 0.1em;
+  margin: 30px;
+}
+
+/* Expanded Bio */
+.fullBio {
+  display: none;
+}
+
+/* Button */
+.readMore {
+  font-family: monospace;
+  color: rgb(177, 177, 177);
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(234, 234, 234);
+  margin: 0 0 30px 30px;
+}
+
+.readMore:hover {
+  color: rgb(69, 196, 255);
+  box-shadow: 0px 1px 5px rgb(209, 207, 207);
+}
+
+/* Background Fixed Image */
+body {
+  background-image: url(https://static.wixstatic.com/media/be3735_b6158143609c4d9293f7dfb09dc847ac~mv2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section {
+  box-sizing: border-box;
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 40px;
+  border: 2px solid rgb(69, 196, 255);
+  opacity: 0.8;
+}
+
+section:hover {
+  box-sizing: border-box;
+  box-shadow: 0px 5px 50px rgb(173, 229, 255);
+  margin-top: 275px 40px;
+  margin-left: auto;
+  opacity: 1;
+}
+
+/* All work experience + all education */
+article {
+  margin: 60px 40px 40px 40px;
+}
+
+/* bold headers */
+h1 {
+  font-family: "futura-bold";
+  font-size: 20pt;
+  margin: 10px 10px 10px 0;
+  color: rgb(34, 62, 94);
+}
+
+/* job titles, companies and schools */
+h2 {
+  font-family: paralucent;
+  font-size: 23px;
+  font-weight: 900;
+  color: rgb(19, 19, 19);
+  letter-spacing: 0.05em;
+}
+
+h2:hover {
+  color: rgb(69, 196, 255);
+}
+
+/* dates */
+h4 {
+  font-family: monospace;
+  color: rgb(69, 196, 255);
+  padding: 10px 10px 15px 0;
+}
+
+/* All company or school logos */
+.logos {
+  margin-right: 50px;
+  width: 100px;
+}
+
+/* .logos:hover {
+  width: 110px;
+} */
+
+/* Experience bullet points */
+li,
+ul,
+h5 {
+  font-family: futura;
+  font-weight: 100;
+  font-size: 14px;
+  padding: 3px 5px 3px 0;
+  color: rgb(34, 62, 94);
+}
+
+/* Contains company logos alongside list items */
+.flexwork {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Contains school logos alongside credentials */
+.flexschool {
+  margin: 25px 20px 25px 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 600px;
+}
+
+/* Grid for schools only  */
+.flexgrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: left;
+}
+
+/* Tools Table */
+table {
+  width: 80%;
+  border: 1px solid rgb(69, 196, 255);
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+/* table headers */
+th {
+  text-align: left;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid rgb(69, 196, 255);
+  border-collapse: collapse;
+}
+
+th:hover {
+  color: rgb(69, 196, 255);
+}
+
+#tableheader {
+  color: white;
+  font-family: paralucent;
+  font-size: 23px;
+  font-weight: 900;
+  background-color: rgb(34, 62, 94);
+  letter-spacing: 0.1em;
+}
+
+/* tools list items */
+td {
+  border: 1px solid rgb(69, 196, 255);
+  border-collapse: collapse;
+  font-family: futura;
+  font-weight: 100;
+  font-size: 14px;
+  padding: 10px;
+  color: rgb(27, 27, 27);
+}
+
+td:hover {
+  color: rgb(69, 196, 255);
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background-color: rgb(34, 62, 94);
+  height: auto;
+  width: 60%;
+  padding: 40px;
+  margin: 35px auto 35px auto;
+}
+/* Input fields */
+input {
+  width: 80%;
+  margin: 10px auto 10px auto;
+  padding: 5px;
+  font-family: monospace;
+  color: rgb(177, 177, 177);
+  border: 2px solid transparent;
+}
+
+input::placeholder {
+  opacity: 0.5;
+}
+
+input:hover {
+  border: 2px solid rgb(69, 196, 255);
+}
+
+#message {
+  height: 100px;
+}
+
+/* Send Button */
+#send {
+  font-family: monospace;
+  color: rgb(177, 177, 177);
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(234, 234, 234);
+  margin: 30px auto 30px auto;
+  width: 80px;
+  height: auto;
+}
+
+#send:hover {
+  color: rgb(69, 196, 255);
+  box-shadow: 0px 1px 7px rgb(15, 24, 48);
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 50px 50px 70px 50px;
+  background-image: linear-gradient(rgb(132, 216, 255), rgb(69, 196, 255));
+  opacity: 0.7;
+  margin-top: 100px;
+}
+
+/* footer copyright text */
+h6 {
+  font-family: paralucent;
+  font-size: 10pt;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color: rgb(34, 62, 94);
+}
+
+@media screen and (max-width: 1670px) {
+  .flexgrid {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .flexprofile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #headshot {
+    width: 100%;
+    height: auto;
+    border-radius: 18px 18px 0 0;
+    margin: 0;
+  }
+
+  p {
+    font-size: 10pt;
+    letter-spacing: 0.1em;
+    margin: 35px 40px 35px 40px;
+  }
+
+  #readMore {
+    margin-left: 35px;
+  }
+
+  #logoadjust {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 400px;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  #logo {
+    margin: 20px 0 0 20px;
+  }
+
+  .flexprofile {
+    margin-top: 500px;
+    width: 80%;
+  }
+
+  .logolockup {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+  }
+
+  section {
+    width: 80%;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .flexwork {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logos {
+    margin: 0 30px 20px 0;
+  }
+
+  .flexschool {
+    padding: 10px;
+    width: 90%;
+    justify-content: flex-start;
+    margin: 10px 0 10px 0;
+  }
+
+  th {
+    padding: 15px;
+  }
+
+  table {
+    margin-bottom: 35px;
+    width: 90%;
+  }
+
+  form {
+    width: 90%;
+  }
+  input {
+    width: 90%;
+  }
+
+  #message {
+    height: 100px;
+  }
+}

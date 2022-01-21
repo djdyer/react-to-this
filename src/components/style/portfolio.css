@@ -1,0 +1,399 @@
+:root {
+  --dark: rgb(49, 73, 120);
+  --light: rgb(105, 205, 244);
+}
+
+.hero {
+  background-image: url(./Images/background.png);
+  width: 100%;
+  min-height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  padding: 50px;
+}
+
+#logo {
+  max-width: 120px;
+  max-height: auto;
+  margin: 30px;
+}
+
+/* Monogram logo plus wordmark */
+#logolockup {
+  display: flex;
+  justify-items: space-around;
+  align-items: center;
+}
+
+/* Dyer Design page title */
+h1 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  -webkit-text-stroke: 1px var(--light);
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: var(--light);
+  margin: 20px;
+  text-shadow: 0 0 10px var(--light);
+}
+
+/* Contains all header content */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* navigation links */
+header a {
+  font-family: futura-bold;
+  display: inline;
+  font-size: 22pt;
+  color: var(--dark);
+  margin: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* navigation links hover over */
+header a:hover {
+  color: var(--light);
+  text-shadow: -2px 10px 25px rgb(184, 230, 232);
+}
+
+body {
+  background-color: white;
+}
+
+/* rotated section headers with underline */
+h2 {
+  font-family: futura-bold;
+  font-size: 22pt;
+  color: var(--dark);
+  margin: 100px;
+  padding: 50px;
+  border-bottom: 10px solid var(--dark);
+  transform: rotate(270deg);
+  box-sizing: content-box;
+}
+
+.header-realign {
+  margin-left: -170px;
+  margin-right: -100px;
+}
+
+/* about paragraph */
+p {
+  color: rgb(24, 24, 24);
+  background-color: rgb(244, 244, 244);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 40px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: content-box;
+}
+
+/* three rows: ABOUT / WORK / CONTACT */
+section {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+article {
+  display: block;
+}
+
+.git_link {
+  width: 30px;
+  margin: 0px 10px 0px 5px;
+}
+
+a img.hover {
+  display: none;
+}
+a img.default {
+  display: inherit;
+}
+a:hover img.hover {
+  display: inherit;
+}
+a:hover img.default {
+  display: none;
+}
+
+/* Grid applied to all 5 works */
+.grid {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+/* work image labels */
+h3 {
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+  font-size: 18pt;
+  color: var(--light);
+  align-self: center;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--dark);
+  padding: 10px;
+  width: max-content;
+}
+
+a {
+  border-style: none;
+  text-decoration: none !important;
+}
+
+h3:hover {
+  color: white;
+}
+
+.work1 {
+  background-image: url(./Images/material_trader_mobiles.png);
+  min-height: 600px;
+  flex-basis: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  border: 10px solid var(--dark);
+  filter: drop-shadow(0 2px 8px var(--dark));
+  opacity: 1.5;
+}
+
+.work2,
+.work3,
+.work4,
+.work5 {
+  background-image: url(./Images/tech_bros_home_demo.jpg);
+  height: 300px;
+  flex-basis: 50%;
+  flex-grow: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  border: 10px solid var(--dark);
+  filter: drop-shadow(0 2px 8px var(--dark));
+  opacity: 1.5;
+}
+
+.work3 {
+  background-image: url(./Images/pokego_mobile.png);
+}
+
+.work4 {
+  background-image: url(./Images/rainorshine_day.png);
+}
+
+.work5 {
+  background-image: url(./Images/code_quiz.jpg);
+}
+
+.work1:hover,
+.work2:hover,
+.work3:hover,
+.work4:hover,
+.work5:hover {
+  border: 10px solid var(--light);
+  opacity: 1;
+  background-color: var(--light);
+  color: var(--dark);
+  filter: drop-shadow(0 0 0);
+}
+
+#nowrapgrid {
+  display: inline-flex;
+  flex-basis: 100%;
+  flex-wrap: nowrap;
+}
+
+/* Email + Location */
+h4 {
+  font-family: paralucent;
+  font-size: 18px;
+  color: rgb(24, 24, 24);
+  margin: 20px;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+/* Social Icons */
+.icon {
+  width: auto;
+  height: 50px;
+  margin: 10px;
+}
+
+.icon:hover {
+  filter: drop-shadow(0 2px 6px var(--light));
+}
+
+footer {
+  background-color: rgb(244, 244, 244);
+  padding: 50px;
+}
+
+footer a {
+  color: var(--light);
+  text-decoration: none;
+  font-family: paralucent;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+h6 {
+  text-align: center;
+}
+
+#contactflex {
+  display: flex;
+  justify-self: flex-start;
+  margin-top: 50px;
+  margin-left: -20px;
+}
+
+address {
+  margin: 20px;
+  text-align: center;
+}
+
+footer h6 a:hover {
+  color: var(--dark);
+}
+
+#nowrapgrid .label {
+  width: 100%;
+}
+
+/* From large display to tablet view  */
+@media screen and (max-width: 1200px) {
+  #nowrapgrid {
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  .work1 {
+    min-height: 300px;
+  }
+
+  .label {
+    width: max-content !important;
+  }
+}
+
+/* Mobile view kicks in at 800px */
+@media screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .hero {
+    padding: 25px;
+  }
+
+  #logo {
+    max-width: 100px;
+    max-height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #logolockup {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+  }
+
+  header a {
+    font-size: 18pt;
+    display: block;
+    margin: 30px;
+  }
+
+  h2 {
+    transform: none;
+  }
+
+  .header-realign {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
+
+  .work1,
+  .work2,
+  .work3,
+  .work4,
+  .work5 {
+    width: 100%;
+    justify-items: center;
+    margin: 40px 0 40px 0;
+  }
+
+  .work1 {
+    margin: 0;
+  }
+
+  .grid {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #nowrapgrid {
+    display: block;
+  }
+
+  .icon {
+    width: auto;
+    height: 40px;
+    margin: 10px;
+  }
+
+  address h4 {
+    margin-bottom: 60px;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+
+  #footerflex {
+    margin-left: 0px;
+  }
+
+  #contactflex {
+    margin-left: 0;
+  }
+
+  #socials {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
