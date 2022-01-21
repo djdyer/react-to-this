@@ -3,10 +3,10 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      <section class="flexprofile">
+      <section className="flexprofile">
         <img
           id="headshot"
-          src="../../assets/resume/pro_headshot.jpg"
+          src="./assets/resume/pro_headshot.jpg"
           alt="Headshot"
         />
         <div>
@@ -20,10 +20,10 @@ export default function About() {
             still running today. In '07, I graduated from the University of
             Central Florida with a BA in Entrepreneurship. It was not long after
             graduation that I relocated myself to sunny Los Angeles CA.
-            <span class="dots">...</span>
+            <span className="dots">...</span>
             <br />
             <br />
-            <span class="fullBio">
+            <span className="fullBio">
               In early '09, I gained an entry-level position with famed LA
               apparel brand, The Hundreds. Within one year, I was promoted to
               eCommerce Sales Manager. As the years went on, the collections and
@@ -53,7 +53,7 @@ export default function About() {
               touch, and let's start a project together!
             </span>
           </p>
-          <button class="readMore">Read more</button>
+          <button className="readMore">Read more</button>
         </div>
       </section>
     </div>

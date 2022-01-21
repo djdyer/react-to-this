@@ -4,15 +4,27 @@ export default function Resume() {
   return (
     <div>
       {/* <!-- All Work Experience  --> */}
+      <a
+        href="../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
+        download="Resume_DavidDyer_2022"
+      >
+        <img
+          className="icon"
+          src="../../../assets/resume/resume_button3..png"
+          target="_blank"
+          alt="Download Resume"
+        />
+      </a>
+
       <section>
         <h1>EXPERIENCE</h1>
         <article>
           <h2>UX/UI DESIGN INTERN // PEPPER SQUARE</h2>
           <h4>2021</h4>
-          <div class="flexwork">
+          <div className="flexwork">
             <img
-              class="logos"
-              src="../../../assets/images/logos/pepper_square.png"
+              className="logos"
+              src="../../assets/images/logos/pepper_square.png"
               alt="Pepper Square Logo"
             />
             <ul>
@@ -35,10 +47,10 @@ export default function Resume() {
         <article>
           <h2>FREELANCE UX DESIGNER // 530 MEDIA LAB</h2>
           <h4>2020-2021</h4>
-          <div class="flexwork">
+          <div className="flexwork">
             <img
-              class="logos"
-              src="../../../assets/images/logos/530.png"
+              className="logos"
+              src="../../assets/images/logos/530.png"
               alt="530 Media Lab Logo"
             />
             <ul>
@@ -61,10 +73,10 @@ export default function Resume() {
         <article>
           <h2>ECOMMERCE OPERATIONS MANAGER // OAKLANDISH</h2>
           <h4>2018-2020</h4>
-          <div class="flexwork">
+          <div className="flexwork">
             <img
-              class="logos"
-              src="../../../assets/images/logos/oaklandish.png"
+              className="logos"
+              src="../../assets/images/logos/oaklandish.png"
               alt="Oaklandish Logo"
             />
             <ul>
@@ -85,10 +97,10 @@ export default function Resume() {
         <article>
           <h2>E-COMMERCE SALES MANAGER // THE HUNDREDS</h2>
           <h4>2009-2017</h4>
-          <div class="flexwork">
+          <div className="flexwork">
             <img
-              class="logos"
-              src="../../../assets/images/logos/thehundreds.png"
+              className="logos"
+              src="../../assets/images/logos/thehundreds.png"
               alt="The Hundreds Logo"
             />
             <ul>
@@ -117,10 +129,10 @@ export default function Resume() {
             <strong>PRESTIGE MUSIC GROUP</strong>
           </h2>
           <h4>2007-Present</h4>
-          <div class="flexwork">
+          <div className="flexwork">
             <img
-              class="logos"
-              src="../../../assets/images/logos/prestige.png"
+              className="logos"
+              src="../../assets/images/logos/prestige.png"
               alt="Prestige Music Group Logo"
             />
             <ul>
@@ -144,11 +156,11 @@ export default function Resume() {
       {/* <!-- All Education --> */}
       <section>
         <h1>EDUCATION</h1>
-        <div class="flexgrid">
-          <article class="flexschool">
+        <div className="flexgrid">
+          <article className="flexschool">
             <img
-              class="logos"
-              src="../../../assets/images/logos/ga_tech.png"
+              className="logos"
+              src="../../assets/images/logos/ga_tech.png"
               alt="GA Tech Logo"
             />
             <ul>
@@ -158,10 +170,10 @@ export default function Resume() {
             </ul>
           </article>
 
-          <article class="flexschool">
+          <article className="flexschool">
             <img
-              class="logos"
-              src="../../../assets/images/logos/berkeley.png"
+              className="logos"
+              src="../../assets/images/logos/berkeley.png"
               alt="UCBerkeley Logo"
             />
             <ul>
@@ -171,10 +183,10 @@ export default function Resume() {
             </ul>
           </article>
 
-          <article class="flexschool">
+          <article className="flexschool">
             <img
-              class="logos"
-              src="../../../assets/images/logos/ucf.png"
+              className="logos"
+              src="../../assets/images/logos/ucf.png"
               alt="UCF Logo"
             />
             <ul>
@@ -184,10 +196,10 @@ export default function Resume() {
             </ul>
           </article>
 
-          <article class="flexschool">
+          <article className="flexschool">
             <img
-              class="logos"
-              src="../../../assets/images/logos/valencia.png"
+              className="logos"
+              src="../../assets/images/logos/valencia.png"
               alt="Valencia College Logo"
             />
             <ul>

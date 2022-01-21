@@ -56,7 +56,6 @@ header {
 .flexprofile {
   display: flex;
   width: 70%;
-  margin-top: 275px;
   padding: 0px;
 }
 
@@ -91,21 +90,12 @@ p {
 
 section {
   box-sizing: border-box;
-  background-color: white;
+  background-color: rgb(252, 252, 252);
   width: 70%;
   border-radius: 20px;
   margin: 40px auto;
   padding: 40px;
   border: 2px solid rgb(69, 196, 255);
-  opacity: 0.8;
-}
-
-section:hover {
-  box-sizing: border-box;
-  box-shadow: 0px 5px 50px rgb(173, 229, 255);
-  margin-top: 275px 40px;
-  margin-left: auto;
-  opacity: 1;
 }
 
 /* All work experience + all education */
@@ -251,10 +241,6 @@ input {
   border: 2px solid transparent;
 }
 
-input::placeholder {
-  opacity: 0.5;
-}
-
 input:hover {
   border: 2px solid rgb(69, 196, 255);
 }
@@ -286,9 +272,8 @@ footer {
   height: 250px;
   width: 100%;
   padding: 50px 50px 70px 50px;
-  background-image: url(../../../assets/images/footer_background.png);
+  background-image: url(../../../assets/footer_background.png);
   margin-top: 100px;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -347,7 +332,6 @@ h6 {
   }
 
   .flexprofile {
-    margin-top: 500px;
     width: 80%;
   }
 

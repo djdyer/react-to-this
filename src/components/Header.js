@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header class="hero">
+    <header className="hero">
       <nav>
         <div id="logolockup">
           <a href="https://dyer.design">
