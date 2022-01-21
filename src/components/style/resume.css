@@ -3,14 +3,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background-image: linear-gradient(rgb(1, 16, 36), rgb(1, 17, 30));
-  border-bottom: 2px solid rgb(69, 196, 255);
   height: 200px;
   width: 100%;
-  box-shadow: 0px 5px 50px black;
   margin-bottom: 100px;
-  position: fixed;
-  z-index: 5;
 }
 
 #logo {
@@ -94,14 +89,6 @@ p {
   box-shadow: 0px 1px 5px rgb(209, 207, 207);
 }
 
-/* Background Fixed Image */
-body {
-  background-image: url(https://static.wixstatic.com/media/be3735_b6158143609c4d9293f7dfb09dc847ac~mv2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 section {
   box-sizing: border-box;
   background-color: white;
@@ -159,10 +146,6 @@ h4 {
   margin-right: 50px;
   width: 100px;
 }
-
-/* .logos:hover {
-  width: 110px;
-} */
 
 /* Experience bullet points */
 li,
@@ -300,12 +283,13 @@ input:hover {
 
 footer {
   text-align: center;
-  height: 100px;
+  height: 250px;
   width: 100%;
   padding: 50px 50px 70px 50px;
-  background-image: linear-gradient(rgb(132, 216, 255), rgb(69, 196, 255));
-  opacity: 0.7;
+  background-image: url(../../../assets/images/footer_background.png);
   margin-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* footer copyright text */

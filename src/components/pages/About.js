@@ -6,7 +6,7 @@ export default function About() {
       <section class="flexprofile">
         <img
           id="headshot"
-          src="../../../assets/resume/pro_headshot.jpg"
+          src="../../assets/resume/pro_headshot.jpg"
           alt="Headshot"
         />
         <div>

@@ -4,11 +4,10 @@
 }
 
 .hero {
-  background-image: url(./Images/background.png);
+  background-image: url(../../../assets/images/header_background.png);
   width: 100%;
-  min-height: 200px;
+  height: 350px;
   background-size: cover;
-  overflow: hidden;
   padding: 50px;
 }
 
@@ -62,10 +61,6 @@ header a:hover {
   text-shadow: -2px 10px 25px rgb(184, 230, 232);
 }
 
-body {
-  background-color: white;
-}
-
 /* rotated section headers with underline */
 h2 {
   font-family: futura-bold;
@@ -76,11 +71,6 @@ h2 {
   border-bottom: 10px solid var(--dark);
   transform: rotate(270deg);
   box-sizing: content-box;
-}
-
-.header-realign {
-  margin-left: -170px;
-  margin-right: -100px;
 }
 
 /* about paragraph */
@@ -165,7 +155,7 @@ h3:hover {
 }
 
 .work1 {
-  background-image: url(./Images/material_trader_mobiles.png);
+  background-image: url(../../../assets/images/work-thumbs/material_trader_mobiles.png);
   min-height: 600px;
   flex-basis: 100%;
   background-size: cover;
@@ -180,7 +170,7 @@ h3:hover {
 .work3,
 .work4,
 .work5 {
-  background-image: url(./Images/tech_bros_home_demo.jpg);
+  background-image: url(../../../assets/images/work-thumbs/tech_bros_home_demo.jpg);
   height: 300px;
   flex-basis: 50%;
   flex-grow: 0;
@@ -193,22 +183,27 @@ h3:hover {
 }
 
 .work3 {
-  background-image: url(./Images/pokego_mobile.png);
+  background-image: url(../../../assets/images/work-thumbs/pokego_home.png);
 }
 
 .work4 {
-  background-image: url(./Images/rainorshine_day.png);
+  background-image: url(../../../assets/images/work-thumbs/rainorshine_day.png);
 }
 
 .work5 {
-  background-image: url(./Images/code_quiz.jpg);
+  background-image: url(../../../assets/images/work-thumbs/code_quiz.jpg);
+}
+
+.work6 {
+  background-image: url(../../../assets/images/work-thumbs/prog_edit_screenshot.png);
 }
 
 .work1:hover,
 .work2:hover,
 .work3:hover,
 .work4:hover,
-.work5:hover {
+.work5:hover,
+.work6:hover {
   border: 10px solid var(--light);
   opacity: 1;
   background-color: var(--light);
@@ -241,11 +236,6 @@ h4 {
 
 .icon:hover {
   filter: drop-shadow(0 2px 6px var(--light));
-}
-
-footer {
-  background-color: rgb(244, 244, 244);
-  padding: 50px;
 }
 
 footer a {
