@@ -6,7 +6,7 @@ export default function About() {
       <section class="flexprofile">
         <img
           id="headshot"
-          src="https://static.wixstatic.com/media/be3735_616e6a013bd94d50a3349086ea65f07b~mv2.jpg"
+          src="../../../assets/resume/pro_headshot.jpg"
           alt="Headshot"
         />
         <div>

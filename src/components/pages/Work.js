@@ -4,12 +4,6 @@ export default function Work() {
   return (
     <div>
       <section>
-        <div class="header-realign">
-          <h2 id="work">WORK</h2>
-        </div>
-
-        {/* <!-- Featured Work --> */}
-
         <article class="work1">
           <div class="label">
             <a
@@ -18,9 +12,12 @@ export default function Work() {
             >
               <img
                 class="git_link default"
-                src="Images/Custom_Social_Icons_github_blue.png"
+                src="../../../images/github_icon.png"
               />
-              <img class="git_link hover" src="Images/github_hover.png" />
+              <img
+                class="git_link hover"
+                src="../../../images/github_hover.png"
+              />
             </a>
             <a
               href="https://materials-trader.herokuapp.com"
@@ -42,9 +39,12 @@ export default function Work() {
               >
                 <img
                   class="git_link default"
-                  src="Images/Custom_Social_Icons_github_blue.png"
+                  src="../../../images/github_icon.png"
                 />
-                <img class="git_link hover" src="Images/github_hover.png" />
+                <img
+                  class="git_link hover"
+                  src="../../../images/github_hover.png"
+                />
               </a>
               <a
                 href="https://the-tech-bros-blog.herokuapp.com"
@@ -64,9 +64,12 @@ export default function Work() {
               >
                 <img
                   class="git_link default"
-                  src="Images/Custom_Social_Icons_github_blue.png"
+                  src="../../../images/github_icon.png"
                 />
-                <img class="git_link hover" src="Images/github_hover.png" />
+                <img
+                  class="git_link hover"
+                  src="../../../images/github_hover.png"
+                />
               </a>
               <a
                 href="http://djdyer.github.io/pokego-weather-companion"
@@ -86,9 +89,12 @@ export default function Work() {
               >
                 <img
                   class="git_link default"
-                  src="Images/Custom_Social_Icons_github_blue.png"
+                  src="../../../images/github_icon.png"
                 />
-                <img class="git_link hover" src="Images/github_hover.png" />
+                <img
+                  class="git_link hover"
+                  src="../../../images/github_hover.png"
+                />
               </a>
               <a
                 href="http://djdyer.github.io/rain-or-shine"
@@ -105,9 +111,12 @@ export default function Work() {
               <a href="https://www.github.com/djdyer/code-quiz" target="_blank">
                 <img
                   class="git_link default"
-                  src="Images/Custom_Social_Icons_github_blue.png"
+                  src="../../../images/github_icon.png"
                 />
-                <img class="git_link hover" src="Images/github_hover.png" />
+                <img
+                  class="git_link hover"
+                  src="../../../images/github_hover.png"
+                />
               </a>
               <a
                 href="http://djdyer.github.io/code-quiz"
@@ -115,6 +124,28 @@ export default function Work() {
                 alt="Code Quiz"
               >
                 <h3>CODE QUIZ</h3>
+              </a>
+            </div>
+          </article>
+
+          <article class="work6">
+            <div class="label">
+              <a href="https://github.com/djdyer/progress-edit" target="_blank">
+                <img
+                  class="git_link default"
+                  src="../../../images/github_icon.png"
+                />
+                <img
+                  class="git_link hover"
+                  src="../../../images/github_hover.png"
+                />
+              </a>
+              <a
+                href="http://progress-edit.herokuapp.com/"
+                target="_blank"
+                alt="Progress Edit"
+              >
+                <h3>PROG EDIT</h3>
               </a>
             </div>
           </article>

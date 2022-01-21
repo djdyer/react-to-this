@@ -12,10 +12,8 @@ export default function Resume() {
           <div class="flexwork">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_38bcbab5801b4f68b403741c5afbea55~mv2.png"
+              src="../../../assets/images/logos/pepper_square.png"
               alt="Pepper Square Logo"
-              width="10%"
-              height="10%"
             />
             <ul>
               <li>
@@ -40,10 +38,8 @@ export default function Resume() {
           <div class="flexwork">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_35de510845ef4676ae154dd4ef392fe5~mv2.png"
+              src="../../../assets/images/logos/530.png"
               alt="530 Media Lab Logo"
-              width="10%"
-              height="10%"
             />
             <ul>
               <li>
@@ -68,10 +64,8 @@ export default function Resume() {
           <div class="flexwork">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_6365f58e027f464fa6c3762e37640f5b~mv2.png"
+              src="../../../assets/images/logos/oaklandish.png"
               alt="Oaklandish Logo"
-              width="10%"
-              height="10%"
             />
             <ul>
               <li>
@@ -94,10 +88,8 @@ export default function Resume() {
           <div class="flexwork">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_1a96eb05721942c8807471a057eefeab~mv2.png"
+              src="../../../assets/images/logos/thehundreds.png"
               alt="The Hundreds Logo"
-              width="10%"
-              height="10%"
             />
             <ul>
               <li>
@@ -128,10 +120,8 @@ export default function Resume() {
           <div class="flexwork">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_25c46945b5d14a3aa826b84b79c058f3~mv2.png"
+              src="../../../assets/images/logos/prestige.png"
               alt="Prestige Music Group Logo"
-              width="10%"
-              height="10%"
             />
             <ul>
               <li>
@@ -158,10 +148,8 @@ export default function Resume() {
           <article class="flexschool">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_a85959608b9347daac4d0cac26610f11~mv2.png"
+              src="../../../assets/images/logos/ga_tech.png"
               alt="GA Tech Logo"
-              width="10%"
-              height="auto"
             />
             <ul>
               <h2>GA INSTITUTE OF TECHNOLOGY</h2>
@@ -173,10 +161,8 @@ export default function Resume() {
           <article class="flexschool">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_ea386e23cbac4ac2b5776696dd8dc9eb~mv2.png"
+              src="../../../assets/images/logos/berkeley.png"
               alt="UCBerkeley Logo"
-              width="10%"
-              height="auto"
             />
             <ul>
               <h2>UC BERKELEY EXT.</h2>
@@ -188,10 +174,8 @@ export default function Resume() {
           <article class="flexschool">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_3046594b25dd462a99f8f18c02f4d618~mv2.png"
+              src="../../../assets/images/logos/ucf.png"
               alt="UCF Logo"
-              width="10%"
-              height="auto"
             />
             <ul>
               <h2>UNIVERSITY OF CENTRAL FLORIDA</h2>
@@ -203,10 +187,8 @@ export default function Resume() {
           <article class="flexschool">
             <img
               class="logos"
-              src="https://static.wixstatic.com/media/be3735_0733866936eb4816a69afdb0b95dbc39~mv2.png"
+              src="../../../assets/images/logos/valencia.png"
               alt="Valencia College Logo"
-              width="10%"
-              height="auto"
             />
             <ul>
               <h2>VALENCIA COLLEGE</h2>
