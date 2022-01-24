@@ -256,7 +256,8 @@ a:hover img.default {
 
 .experience,
 .education,
-.tools {
+.tools,
+.contact {
   display: flex;
   flex-direction: column;
   padding: 40px 25px;

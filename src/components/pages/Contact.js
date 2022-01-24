@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      <section>
+      <section className="contact">
         <h1>CONTACT</h1>
         <form>
           <input type="text" placeholder="Name"></input>
