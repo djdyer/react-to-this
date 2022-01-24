@@ -10,7 +10,7 @@ export default function Header() {
           <a href="https://dyer.design">
             <img
               id="logo"
-              src="Images/DD_logo_LARGE_NOBACK.png"
+              src="../../../images/logos/dd_logo.png"
               target="_blank"
               alt="Dyer Design Lettermark"
             />

@@ -10,13 +10,13 @@ export default function Resume() {
       >
         <img
           className="icon"
-          src="../../../assets/resume/resume_button3..png"
+          src="../../../src/assets/resume/resume_button3.png"
           target="_blank"
           alt="Download Resume"
         />
       </a>
 
-      <section>
+      <section className="experience">
         <h1>EXPERIENCE</h1>
         <article>
           <h2>UX/UI DESIGN INTERN // PEPPER SQUARE</h2>
@@ -154,7 +154,7 @@ export default function Resume() {
       </section>
 
       {/* <!-- All Education --> */}
-      <section>
+      <section className="education">
         <h1>EDUCATION</h1>
         <div className="flexgrid">
           <article className="flexschool">
@@ -212,7 +212,7 @@ export default function Resume() {
       </section>
 
       {/* <!-- All Tools Table --> */}
-      <section>
+      <section className="tools">
         <h1>TOOLS</h1>
         <br />
         <br />
