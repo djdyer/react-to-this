@@ -4,7 +4,9 @@ export default function Contact() {
   return (
     <div>
       <section className="contact">
-        <h1>CONTACT</h1>
+        <div className="centerTitle">
+          <h1>CONTACT</h1>
+        </div>
         <form>
           <input type="text" placeholder="Name"></input>
           <input type="text" placeholder="Email Address"></input>

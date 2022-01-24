@@ -1,30 +1,30 @@
 import React from "react";
 
 export default function Resume() {
-  let resume = require("../../assets/resume/resume_button3.png");
-  let pepperSquare = require("../../assets/images/logos/pepper_square.png");
-  let fiveThirty = require("../../assets/images/logos/530.png");
-  let oaklandish = require("../../assets/images/logos/oaklandish.png");
-  let theHundreds = require("../../assets/images/logos/thehundreds.png");
-  let prestige = require("../../assets/images/logos/prestige_logo.png");
-  let gaTech = require("../../assets/images/logos/ga_tech.png");
-  let ucb = require("../../assets/images/logos/berkeley.png");
-  let ucf = require("../../assets/images/logos/ucf.png");
-  let valencia = require("../../assets/images/logos/valencia.png");
+  const resume = require("../../assets/resume/resume_button3.png");
+  const pepperSquare = require("../../assets/images/logos/pepper_square.png");
+  const fiveThirty = require("../../assets/images/logos/530.png");
+  const oaklandish = require("../../assets/images/logos/oaklandish.png");
+  const theHundreds = require("../../assets/images/logos/thehundreds.png");
+  const prestige = require("../../assets/images/logos/prestige_logo.png");
+  const gaTech = require("../../assets/images/logos/ga_tech.png");
+  const ucb = require("../../assets/images/logos/berkeley.png");
+  const ucf = require("../../assets/images/logos/ucf.png");
+  const valencia = require("../../assets/images/logos/valencia.png");
 
   return (
     <div>
       {/* <!-- All Work Experience  --> */}
 
       <section className="experience">
-        <div>
+        <div className="centerTitle">
           <h1>EXPERIENCE</h1>
           <a
             href="../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
             download="Resume_DavidDyer_2022"
           >
             <img
-              className="icon"
+              className="resume"
               src={resume}
               target="_blank"
               alt="Download Resume"
@@ -156,7 +156,9 @@ export default function Resume() {
 
       {/* <!-- All Education --> */}
       <section className="education">
-        <h1>EDUCATION</h1>
+        <div className="centerTitle">
+          <h1>EDUCATION</h1>
+        </div>
         <div className="flexgrid">
           <article className="flexschool">
             <img className="logos" src={gaTech} alt="GA Tech Logo" />
@@ -198,7 +200,9 @@ export default function Resume() {
 
       {/* <!-- All Tools Table --> */}
       <section className="tools">
-        <h1>TOOLS</h1>
+        <div className="centerTitle">
+          <h1>TOOLS</h1>
+        </div>
         <br />
         <br />
         <table>

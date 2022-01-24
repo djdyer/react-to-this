@@ -1,7 +1,9 @@
 import React from "react";
+import helper from "../js/helpers";
 
 export default function About() {
-  let headshot = require("../../assets/resume/casual_headshot.jpg");
+  const headshot = require("../../assets/resume/casual_headshot.jpg");
+
   return (
     <div>
       <section className="flexprofile">
@@ -49,8 +51,10 @@ export default function About() {
               fall term, putting all the pieces together. Reach out, get in
               touch, and let's start a project together!
             </span>
+            <button className="readMore" onClick={() => helper()}>
+              Read more
+            </button>
           </p>
-          <button className="readMore">Read more</button>
         </div>
       </section>
     </div>

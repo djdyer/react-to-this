@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function Work() {
-  let github = require("../../assets/images/social-icons/github_icon.png");
-  let githubHover = require("../../assets/images/social-icons/github_hover.png");
+  const github = require("../../assets/images/social-icons/github_icon.png");
+  const githubHover = require("../../assets/images/social-icons/github_hover.png");
 
   return (
     <div className="grid">

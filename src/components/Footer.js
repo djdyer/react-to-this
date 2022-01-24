@@ -1,14 +1,12 @@
-// FROM OG PORTFOLIO
-
 import React from "react";
 
 export default function Footer() {
-  let email = require("../../src/assets/images/social-icons/email_icon.png");
-  let linkedIn = require("../../src/assets/images/social-icons/linkedin_icon.png");
-  let instagram = require("../../src/assets/images/social-icons/instagram_icon.png");
-  let github = require("../../src/assets/images/social-icons/github_icon.png");
-  let behance = require("../../src/assets/images/social-icons/behance_icon.png");
-  let prestige = require("../../src/assets/images/social-icons/prestige_icon.png");
+  const email = require("../../src/assets/images/social-icons/email_icon.png");
+  const linkedIn = require("../../src/assets/images/social-icons/linkedin_icon.png");
+  const instagram = require("../../src/assets/images/social-icons/instagram_icon.png");
+  const github = require("../../src/assets/images/social-icons/github_icon.png");
+  const behance = require("../../src/assets/images/social-icons/behance_icon.png");
+  const prestige = require("../../src/assets/images/social-icons/prestige_icon.png");
 
   return (
     <div>
