@@ -91,10 +91,9 @@ a {
 }
 
 #headshot {
-  background-image: url(../../../src/assets/resume/pro_headshot.jpg);
   display: block;
-  width: auto;
-  height: 100%;
+  width: 350px;
+  height: auto;
   border-radius: 18px 0 0 18px;
 }
 
@@ -109,12 +108,10 @@ p {
   color: rgb(24, 24, 24);
   background-color: rgb(244, 244, 244);
   font-family: paralucent;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
-  padding: 40px;
+  padding: 25px;
   letter-spacing: 0.1em;
-  margin-left: 20px;
-  margin-right: 20px;
   box-sizing: content-box;
 }
 
@@ -311,7 +308,6 @@ h5 {
 /* Contains company logos alongside list items */
 .flexwork {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   padding: 10px;
 }
@@ -546,8 +542,7 @@ footer h6 a:hover {
 
   p {
     font-size: 12pt;
-    letter-spacing: 0.1em;
-    margin: 25px;
+    margin: 15px;
   }
 
   #readMore {
@@ -571,6 +566,10 @@ footer h6 a:hover {
     min-height: 300px;
     justify-items: center;
     margin: 20px 15px;
+  }
+
+  .flexwork {
+    flex-wrap: wrap;
   }
 
   .grid {
@@ -638,6 +637,7 @@ footer h6 a:hover {
     flex-direction: column;
     align-items: center;
   }
+
   .logos {
     margin: 0 30px 20px 0;
   }

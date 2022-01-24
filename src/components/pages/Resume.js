@@ -1,30 +1,43 @@
 import React from "react";
 
 export default function Resume() {
+  let resume = require("../../assets/resume/resume_button3.png");
+  let pepperSquare = require("../../assets/images/logos/pepper_square.png");
+  let fiveThirty = require("../../assets/images/logos/530.png");
+  let oaklandish = require("../../assets/images/logos/oaklandish.png");
+  let theHundreds = require("../../assets/images/logos/thehundreds.png");
+  let prestige = require("../../assets/images/logos/prestige_logo.png");
+  let gaTech = require("../../assets/images/logos/ga_tech.png");
+  let ucb = require("../../assets/images/logos/berkeley.png");
+  let ucf = require("../../assets/images/logos/ucf.png");
+  let valencia = require("../../assets/images/logos/valencia.png");
+
   return (
     <div>
       {/* <!-- All Work Experience  --> */}
-      <a
-        href="../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
-        download="Resume_DavidDyer_2022"
-      >
-        <img
-          className="icon"
-          src="../../../src/assets/resume/resume_button3.png"
-          target="_blank"
-          alt="Download Resume"
-        />
-      </a>
 
       <section className="experience">
-        <h1>EXPERIENCE</h1>
+        <div>
+          <h1>EXPERIENCE</h1>
+          <a
+            href="../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
+            download="Resume_DavidDyer_2022"
+          >
+            <img
+              className="icon"
+              src={resume}
+              target="_blank"
+              alt="Download Resume"
+            />
+          </a>
+        </div>
         <article>
           <h2>UX/UI DESIGN INTERN // PEPPER SQUARE</h2>
           <h4>2021</h4>
           <div className="flexwork">
             <img
               className="logos"
-              src="../../assets/images/logos/pepper_square.png"
+              src={pepperSquare}
               alt="Pepper Square Logo"
             />
             <ul>
@@ -48,11 +61,7 @@ export default function Resume() {
           <h2>FREELANCE UX DESIGNER // 530 MEDIA LAB</h2>
           <h4>2020-2021</h4>
           <div className="flexwork">
-            <img
-              className="logos"
-              src="../../assets/images/logos/530.png"
-              alt="530 Media Lab Logo"
-            />
+            <img className="logos" src={fiveThirty} alt="530 Media Lab Logo" />
             <ul>
               <li>
                 Led mobile application UX Design from concept to prototype.
@@ -74,11 +83,7 @@ export default function Resume() {
           <h2>ECOMMERCE OPERATIONS MANAGER // OAKLANDISH</h2>
           <h4>2018-2020</h4>
           <div className="flexwork">
-            <img
-              className="logos"
-              src="../../assets/images/logos/oaklandish.png"
-              alt="Oaklandish Logo"
-            />
+            <img className="logos" src={oaklandish} alt="Oaklandish Logo" />
             <ul>
               <li>
                 Directed enhanced end-to-end eCommerce operations for prominent,
@@ -98,11 +103,7 @@ export default function Resume() {
           <h2>E-COMMERCE SALES MANAGER // THE HUNDREDS</h2>
           <h4>2009-2017</h4>
           <div className="flexwork">
-            <img
-              className="logos"
-              src="../../assets/images/logos/thehundreds.png"
-              alt="The Hundreds Logo"
-            />
+            <img className="logos" src={theHundreds} alt="The Hundreds Logo" />
             <ul>
               <li>
                 Effectively spearheaded online sales activity for this
@@ -132,7 +133,7 @@ export default function Resume() {
           <div className="flexwork">
             <img
               className="logos"
-              src="../../assets/images/logos/prestige.png"
+              src={prestige}
               alt="Prestige Music Group Logo"
             />
             <ul>
@@ -158,11 +159,7 @@ export default function Resume() {
         <h1>EDUCATION</h1>
         <div className="flexgrid">
           <article className="flexschool">
-            <img
-              className="logos"
-              src="../../assets/images/logos/ga_tech.png"
-              alt="GA Tech Logo"
-            />
+            <img className="logos" src={gaTech} alt="GA Tech Logo" />
             <ul>
               <h2>GA INSTITUTE OF TECHNOLOGY</h2>
               <h4>2022</h4>
@@ -171,11 +168,7 @@ export default function Resume() {
           </article>
 
           <article className="flexschool">
-            <img
-              className="logos"
-              src="../../assets/images/logos/berkeley.png"
-              alt="UCBerkeley Logo"
-            />
+            <img className="logos" src={ucb} alt="UCBerkeley Logo" />
             <ul>
               <h2>UC BERKELEY EXT.</h2>
               <h4>2020</h4>
@@ -184,11 +177,7 @@ export default function Resume() {
           </article>
 
           <article className="flexschool">
-            <img
-              className="logos"
-              src="../../assets/images/logos/ucf.png"
-              alt="UCF Logo"
-            />
+            <img className="logos" src={ucf} alt="UCF Logo" />
             <ul>
               <h2>UNIVERSITY OF CENTRAL FLORIDA</h2>
               <h4>2007</h4>
@@ -197,11 +186,7 @@ export default function Resume() {
           </article>
 
           <article className="flexschool">
-            <img
-              className="logos"
-              src="../../assets/images/logos/valencia.png"
-              alt="Valencia College Logo"
-            />
+            <img className="logos" src={valencia} alt="Valencia College Logo" />
             <ul>
               <h2>VALENCIA COLLEGE</h2>
               <h4>2004</h4>

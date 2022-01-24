@@ -3,6 +3,13 @@
 import React from "react";
 
 export default function Footer() {
+  let email = require("../../src/assets/images/social-icons/email_icon.png");
+  let linkedIn = require("../../src/assets/images/social-icons/linkedin_icon.png");
+  let instagram = require("../../src/assets/images/social-icons/instagram_icon.png");
+  let github = require("../../src/assets/images/social-icons/github_icon.png");
+  let behance = require("../../src/assets/images/social-icons/behance_icon.png");
+  let prestige = require("../../src/assets/images/social-icons/prestige_icon.png");
+
   return (
     <div>
       <footer id="contactflex">
@@ -11,7 +18,7 @@ export default function Footer() {
           <a href="mailto:david@dyer.design">
             <img
               className="icon"
-              src="../../assets/images/social-icons/email-icon.png"
+              src={email}
               target="_blank"
               alt="Send Email"
             />
@@ -19,7 +26,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/mrdavidrdyer/">
             <img
               className="icon"
-              src="../../assets/images/social-icons/linkedin_icon.png"
+              src={linkedIn}
               target="_blank"
               alt="Connect on LinkedIn"
             />
@@ -27,7 +34,7 @@ export default function Footer() {
           <a href="https://www.instagram.com/djdyer">
             <img
               className="icon"
-              src="../../assets/images/social-icons/instagram-icon.png"
+              src={instagram}
               target="_blank"
               alt="Follow on Instagram"
             />
@@ -35,7 +42,7 @@ export default function Footer() {
           <a href="https://www.github.com/djdyer">
             <img
               className="icon"
-              src="../../assets/images/social-icons/github_icon.png"
+              src={github}
               target="_blank"
               alt="Collaborate on GitHub"
             />
@@ -43,7 +50,7 @@ export default function Footer() {
           <a href="https://www.behance.net/daviddyer">
             <img
               className="icon"
-              src="../../assets/images/social-icons/behance-icon.png"
+              src={behance}
               target="_blank"
               alt="Be inspired on Behance"
             />
@@ -51,7 +58,7 @@ export default function Footer() {
           <a href="https://www.prestigemusicgroup.com">
             <img
               className="icon"
-              src="../../assets/images/social-icons/prestige-icon.png"
+              src={prestige}
               target="_blank"
               alt="Support The Prestige Music Group"
             />

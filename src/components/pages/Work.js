@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function Work() {
+  let github = require("../../assets/images/social-icons/github_icon.png");
+  let githubHover = require("../../assets/images/social-icons/github_hover.png");
+
   return (
     <div className="grid">
       <article className="work1">
@@ -10,15 +13,11 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              alt="Git Hub Icon"
-              className="git_link default"
-              src="../assets/images/social-icons/github_icon.png"
-            />
+            <img alt="Git Hub Icon" className="git_link default" src={github} />
             <img
               alt="Git Hub Icon Hover"
               className="git_link hover"
-              src="../assets/images/social-icons/github_hover.png"
+              src={githubHover}
             />
           </a>
           <a
@@ -39,15 +38,11 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              alt="Git Hub Icon"
-              className="git_link default"
-              src="../assets/images/social-icons/github_icon.png"
-            />
+            <img alt="Git Hub Icon" className="git_link default" src={github} />
             <img
               alt="Git Hub Icon Hover"
               className="git_link hover"
-              src="../assets/images/social-icons/github_hover.png"
+              src={githubHover}
             />
           </a>
           <a
@@ -68,15 +63,11 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              alt="Git Hub Icon"
-              className="git_link default"
-              src="../assets/images/social-icons/github_icon.png"
-            />
+            <img alt="Git Hub Icon" className="git_link default" src={github} />
             <img
               alt="Git Hub Icon Hover"
               className="git_link hover"
-              src="../assets/images/social-icons/github_hover.png"
+              src={githubHover}
             />
           </a>
           <a
@@ -97,15 +88,11 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              alt="Git Hub Icon"
-              className="git_link default"
-              src="../assets/images/social-icons/github_icon.png"
-            />
+            <img alt="Git Hub Icon" className="git_link default" src={github} />
             <img
               alt="Git Hub Icon Hover"
               className="git_link hover"
-              src="../assets/images/social-icons/github_hover.png"
+              src={githubHover}
             />
           </a>
           <a
@@ -126,15 +113,11 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              alt="Git Hub Icon"
-              className="git_link default"
-              src="../assets/images/social-icons/github_icon.png"
-            />
+            <img alt="Git Hub Icon" className="git_link default" src={github} />
             <img
               alt="Git Hub Icon Hover"
               className="git_link hover"
-              src="../assets/images/social-icons/github_hover.png"
+              src={githubHover}
             />
           </a>
           <a
@@ -155,15 +138,11 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              alt="Git Hub Icon"
-              className="git_link default"
-              src="../assets/images/social-icons/github_icon.png"
-            />
+            <img alt="Git Hub Icon" className="git_link default" src={github} />
             <img
               alt="Git Hub Icon Hover"
               className="git_link hover"
-              src="../assets/images/social-icons/github_hover.png"
+              src={githubHover}
             />
           </a>
           <a

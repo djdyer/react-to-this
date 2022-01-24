@@ -1,14 +1,11 @@
 import React from "react";
 
 export default function About() {
+  let headshot = require("../../assets/resume/casual_headshot.jpg");
   return (
     <div>
       <section className="flexprofile">
-        <img
-          id="headshot"
-          src="../../../resume/pro_headshot.jpg"
-          alt="Headshot"
-        />
+        <img id="headshot" src={headshot} alt="Headshot" />
         <div>
           <p>
             My name is David Dyer, I am an artist, skateboarder, music label

@@ -1,8 +1,7 @@
-// FROM OG PORTFOLIO
-
 import React from "react";
 
 export default function Header() {
+  let logo = require("../../src/assets/images/logos/dd_logo.png");
   return (
     <header className="hero">
       <nav>
@@ -10,7 +9,7 @@ export default function Header() {
           <a href="https://dyer.design">
             <img
               id="logo"
-              src="../../../images/logos/dd_logo.png"
+              src={logo}
               target="_blank"
               alt="Dyer Design Lettermark"
             />
