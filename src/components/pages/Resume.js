@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Resume() {
-  const resume = require("../../assets/resume/resume_button3.png");
+  const resumeBtn = require("../../assets/resume/resume_button3.png");
   const pepperSquare = require("../../assets/images/logos/pepper_square.png");
   const fiveThirty = require("../../assets/images/logos/530.png");
   const oaklandish = require("../../assets/images/logos/oaklandish.png");
@@ -19,13 +19,14 @@ export default function Resume() {
       <section className="experience">
         <div className="centerTitle">
           <h1>EXPERIENCE</h1>
+
           <a
-            href="../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
-            download="Resume_DavidDyer_2022"
+            href="../../assets/resume/David_Dyer_Resume_Personal.pdf"
+            download="David Dyer Resume 2022"
           >
             <img
-              className="resume"
-              src={resume}
+              className="resumeBtn"
+              src={resumeBtn}
               target="_blank"
               alt="Download Resume"
             />

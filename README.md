@@ -84,8 +84,6 @@ Copyright (c) David Dyer [2022]
 
 ## Demo
 
-[![](assets/demo/youtube.png)](https://...)
-
 <img src="./assets/demo/...png" width = "600">
 
 <br />
