@@ -1,5 +1,5 @@
 import React from "react";
-import helper from "../js/helpers";
+import helper from "../utils/helpers";
 
 export default function About() {
   const headshot = require("../../assets/resume/casual_headshot.jpg");
