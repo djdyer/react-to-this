@@ -13,9 +13,6 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    console.log(inputType);
-    console.log(inputValue);
-
     if (inputType === "name") {
       setName(inputValue);
       if (inputValue.length < 3) {
@@ -59,7 +56,7 @@ export default function Contact() {
 
     alert(`Thanks for your message ${name}!`);
 
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    // Clear out the input after sending.
     setName("");
     setEmail("");
     setMessage("");

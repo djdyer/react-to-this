@@ -1,5 +1,5 @@
 import React from "react";
-import { saveAs } from "file-saver";
+// import { saveAs } from "file-saver";
 
 export default function Resume() {
   const resumeBtn = require("../../assets/resume/resume_button3.png");
@@ -17,12 +17,12 @@ export default function Resume() {
   //  "../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
   // https://drive.google.com/file/d/1kmmjf-HuqfVJr5-kVEHmw1JV9mFzlbpd/view?usp=sharing
 
-  const saveFile = () => {
-    saveAs(
-      "https://www.dropbox.com/s/bilddb2pjiz5mgt/David_Dyer_Resume_Personal_2022.pdf",
-      "David_Dyer_Resume_2022"
-    );
-  };
+  // const saveFile = () => {
+  //   saveAs(
+  //     "https://www.dropbox.com/s/bilddb2pjiz5mgt/David_Dyer_Resume_Personal_2022.pdf",
+  //     "David_Dyer_Resume_2022"
+  //   );
+  // };
 
   return (
     <div>
@@ -31,9 +31,13 @@ export default function Resume() {
       <section className="experience">
         <div className="centerTitle">
           <h1>EXPERIENCE</h1>
-          <button onClick={saveFile}>
+          <a
+            href="https://drive.google.com/file/d/1kmmjf-HuqfVJr5-kVEHmw1JV9mFzlbpd/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className="resumeBtn" src={resumeBtn} alt="Download Resume" />
-          </button>
+          </a>
         </div>
 
         <article>
@@ -211,41 +215,45 @@ export default function Resume() {
         <br />
         <br />
         <table>
-          <tr id="tableheader">
-            <th>ECOMM</th>
-            <th>DESIGN</th>
-            <th>WEB DEV</th>
-          </tr>
-          <tr>
-            <td>Magento 2.0</td>
-            <td>Figma</td>
-            <td>HTML5/CSS3</td>
-          </tr>
-          <tr>
-            <td>Shopify Plus</td>
-            <td>XD</td>
-            <td>JavaScript</td>
-          </tr>
-          <tr>
-            <td>Wix</td>
-            <td>Illustrator</td>
-            <td>Node</td>
-          </tr>
-          <tr>
-            <td>Squarespace</td>
-            <td>Procreate</td>
-            <td>Express</td>
-          </tr>
-          <tr>
-            <td>Wordpress</td>
-            <td>Premier Pro</td>
-            <td>MongoDB</td>
-          </tr>
-          <tr>
-            <td>Full Circle</td>
-            <td>Sketch</td>
-            <td>React</td>
-          </tr>
+          <thead>
+            <tr id="tableheader">
+              <th>ECOMM</th>
+              <th>DESIGN</th>
+              <th>WEB DEV</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Magento 2.0</td>
+              <td>Figma</td>
+              <td>HTML5/CSS3</td>
+            </tr>
+            <tr>
+              <td>Shopify Plus</td>
+              <td>XD</td>
+              <td>JavaScript</td>
+            </tr>
+            <tr>
+              <td>Wix</td>
+              <td>Illustrator</td>
+              <td>Node</td>
+            </tr>
+            <tr>
+              <td>Squarespace</td>
+              <td>Procreate</td>
+              <td>Express</td>
+            </tr>
+            <tr>
+              <td>Wordpress</td>
+              <td>Premier Pro</td>
+              <td>MongoDB</td>
+            </tr>
+            <tr>
+              <td>Full Circle</td>
+              <td>Sketch</td>
+              <td>React</td>
+            </tr>
+          </tbody>
         </table>
       </section>
     </div>
