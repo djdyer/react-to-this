@@ -58,10 +58,6 @@ Application will then run in the command-line with:
 
 ## Deployment
 
-[Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
-
-**Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
-
 [<img src="./assets/images/github_pages.jpeg" height="80px">](https://.../)
 
 <br />

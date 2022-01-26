@@ -1,6 +1,4 @@
 export default function expandBio() {
-  document.querySelector(".readMore").addEventListener("click", expandBio);
-
   const dots = document.querySelector(".dots");
   const fullBio = document.querySelector(".fullBio");
   const readMore = document.querySelector(".readMore");

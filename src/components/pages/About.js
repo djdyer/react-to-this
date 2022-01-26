@@ -51,7 +51,7 @@ export default function About() {
               fall term, putting all the pieces together. Reach out, get in
               touch, and let's build something cool!
             </span>
-            <button className="readMore" onClick={() => helper()}>
+            <button className="readMore" onClick={helper}>
               Read more
             </button>
           </p>
