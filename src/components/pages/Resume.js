@@ -1,4 +1,5 @@
 import React from "react";
+import { saveAs } from "file-saver";
 
 export default function Resume() {
   const resumeBtn = require("../../assets/resume/resume_button3.png");
@@ -12,6 +13,17 @@ export default function Resume() {
   const ucf = require("../../assets/images/logos/ucf.png");
   const valencia = require("../../assets/images/logos/valencia.png");
 
+  // "https://www.dropbox.com/s/bilddb2pjiz5mgt/David_Dyer_Resume_Personal_2022.pdf",
+  //  "../../assets/resume/David_Dyer_Resume_Personal_2022.pdf"
+  // https://drive.google.com/file/d/1kmmjf-HuqfVJr5-kVEHmw1JV9mFzlbpd/view?usp=sharing
+
+  const saveFile = () => {
+    saveAs(
+      "https://www.dropbox.com/s/bilddb2pjiz5mgt/David_Dyer_Resume_Personal_2022.pdf",
+      "David_Dyer_Resume_2022"
+    );
+  };
+
   return (
     <div>
       {/* <!-- All Work Experience  --> */}
@@ -19,19 +31,11 @@ export default function Resume() {
       <section className="experience">
         <div className="centerTitle">
           <h1>EXPERIENCE</h1>
-
-          <a
-            href="../../assets/resume/David_Dyer_Resume_Personal.pdf"
-            download="David Dyer Resume 2022"
-          >
-            <img
-              className="resumeBtn"
-              src={resumeBtn}
-              target="_blank"
-              alt="Download Resume"
-            />
-          </a>
+          <button onClick={saveFile}>
+            <img className="resumeBtn" src={resumeBtn} alt="Download Resume" />
+          </button>
         </div>
+
         <article>
           <h2>UX/UI DESIGN INTERN // PEPPER SQUARE</h2>
           <h4>2021</h4>

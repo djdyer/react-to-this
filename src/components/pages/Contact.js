@@ -30,16 +30,14 @@ export default function Contact() {
       } else {
         setErrorMessage("");
       }
+    } else if (inputType === "message") {
+      setMessage(inputValue);
+      if (inputValue.length < 5) {
+        setErrorMessage("Field required");
+      } else {
+        setErrorMessage("");
+      }
     }
-
-    // Based on the input type, we set the state of either email name
-    //   if (inputType === "email") {
-    //     setEmail(inputValue);
-    //   } else if (inputType === "name") {
-    //     setName(inputValue);
-    //   } else {
-    //     setMessage(inputValue);
-    //   }
   };
 
   const handleFormSubmit = (e) => {

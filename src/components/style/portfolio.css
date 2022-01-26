@@ -517,9 +517,10 @@ footer h6 a:hover {
   }
 }
 
-/* footer#contactflex {
-  margin-left: 0px;
-} */
+p.error-text {
+  align-self: center;
+  margin-top: 0;
+}
 
 @media screen and (max-width: 900px) {
   #logo {
@@ -566,11 +567,6 @@ footer h6 a:hover {
     margin: 15px;
   }
 
-  p.error-text {
-    align-self: center;
-    margin-top: 0;
-  }
-
   #readMore {
     margin-left: 35px;
   }
@@ -615,6 +611,13 @@ footer h6 a:hover {
     text-align: center;
     margin-bottom: 20px;
   }
+
+  .flexschool {
+    padding: 5px;
+    width: 90%;
+    justify-content: flex-start;
+    margin: 5px 0;
+  }
 }
 
 @media screen and (max-width: 501px) {
@@ -640,13 +643,6 @@ footer h6 a:hover {
 
   .logos {
     margin: 0 20px;
-  }
-
-  .flexschool {
-    padding: 10px;
-    width: 90%;
-    justify-content: flex-start;
-    margin: 10px 0 10px 0;
   }
 
   th {
