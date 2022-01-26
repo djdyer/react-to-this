@@ -12,14 +12,4 @@ export default function expandBio() {
     readMore.innerHTML = "Read less";
     fullBio.style.display = "inline";
   }
-  // function collapseBio() {
-  //   if (dots.style.display === "none") {
-  //     dots.style.display = "none";
-  //     readMore.innerHTML = "Read less";
-  //     fullBio.style.display = "inline";
-  //   } else {
-  //     dots.style.display = "inline";
-  //     readMore.innerHTML = "Read more";
-  //     fullBio.style.display = "none";
-  //   }
 }

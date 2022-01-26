@@ -6,12 +6,10 @@
 
 - [Description](#description)
 - [User Story](#user-story)
-- [Installation](#installation)
 - [Deployment](#deployment)
 - [License](#license)
 - [Demo](#demo)
 - [Criteria](#criteria)
-- [Collaboration](#collaboration)
 
 <br />
 <br />
@@ -34,37 +32,19 @@ SO THAT I can assess whether they're a good candidate for an open position
 <br />
 <br />
 
-## Installation
-
-⬇️
-
-Must first initialize with the following commands:
-
-```
-...
-
-```
-
-<br />
-
-Application will then run in the command-line with:
-
-```
-...
-```
-
-<br />
-<br />
-
 ## Deployment
 
-[<img src="./assets/images/github_pages.jpeg" height="80px">](https://.../)
+Click to view in browser 🔗
+<br/>
+[<img src="./assets/badges/github_pages.jpeg" height="80px">](https://djdyer.github.io/react-to-this/)
 
 <br />
 
 **Employing the following technology:**
 
-[<img src="./assets/images/react.svg" height="20px">](https://...)
+[<img src="./assets/badges/html.svg" height="20px">](https://devdocs.io/html/)
+[<img src="./assets/badges/css.svg" height="20px">](https://devdocs.io/css/)
+[<img src="./assets/badges/react.svg" height="20px">](https://reactjs.org/)
 
 <br />
 <br />
@@ -73,14 +53,14 @@ Application will then run in the command-line with:
 
 Copyright (c) David Dyer [2022]
 
-[<img src="./assets/images/isc.svg" height="20px">](https://choosealicense.com/licenses/isc/)
+[<img src="./assets/badges/isc.svg" height="20px">](https://choosealicense.com/licenses/isc/)
 
 <br />
 <br />
 
 ## Demo
 
-<img src="./assets/demo/...png" width = "600">
+<img src="./assets/demo/screenshot.png" width = "600">
 
 <br />
 <br />
@@ -114,19 +94,6 @@ footer contains icon links for github, linkedin, instagram.
 
 <br />
 <br />
-
-## Collaboration
-
-Development efforts included much deliberation with my fellow cohort:
-
----
-
-<a href= "https://github.com/..."><img src=
-"https://..." width="50px"/></a>
-
-<br />
-<br />
-<br />
-Let's build something!
-
+Let's build something cool!  
+<br/>     
 🛠️
