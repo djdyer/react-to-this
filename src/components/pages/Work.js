@@ -9,7 +9,7 @@ export default function Work() {
       <article className="work1">
         <div className="label">
           <a
-            href="https://github.com/djdyer/progress-edit"
+            href="https://github.com/djdyer/fly-app"
             target="_blank"
             rel="noreferrer"
           >
@@ -21,12 +21,12 @@ export default function Work() {
             />
           </a>
           <a
-            href="http://progress-edit.herokuapp.com/"
+            href="http://flyapp.world/"
             target="_blank"
             rel="noreferrer"
             alt="Progress Edit"
           >
-            <h3>PROG EDIT</h3>
+            <h3>FLY APP</h3>
           </a>
         </div>
       </article>
