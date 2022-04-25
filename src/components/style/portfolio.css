@@ -1,11 +1,11 @@
 @font-face {
   font-family: tungsten;
-  src: url(../../../assets/fonts/TungstenCond-Light.otf);
+  src: url(../../assets/fonts/TungstenCond-Light.otf);
 }
 
 @font-face {
   font-family: teko;
-  src: url(../../../assets/fonts/Teko-Light.ttf);
+  src: url(../../assets/fonts/Teko-Light.ttf);
 }
 
 :root {
