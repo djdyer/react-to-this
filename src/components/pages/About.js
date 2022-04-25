@@ -52,7 +52,7 @@ export default function About() {
               touch, and let's build something cool!
             </span>
             <button className="readMore" onClick={helper}>
-              Read more
+              READ MORE
             </button>
           </p>
         </div>

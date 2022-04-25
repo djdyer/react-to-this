@@ -94,7 +94,7 @@ export default function Contact() {
             id="message"
           />
           <button type="button" onClick={handleFormSubmit} className="send">
-            Send
+            SEND
           </button>
         </form>
         {errorMessage && (

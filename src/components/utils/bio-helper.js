@@ -5,11 +5,11 @@ export default function expandBio() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    readMore.innerHTML = "Read more";
+    readMore.innerHTML = "READ MORE";
     fullBio.style.display = "none";
   } else {
     dots.style.display = "none";
-    readMore.innerHTML = "Read less";
+    readMore.innerHTML = "READ LESS";
     fullBio.style.display = "inline";
   }
 }

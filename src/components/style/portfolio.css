@@ -1,3 +1,13 @@
+@font-face {
+  font-family: tungsten;
+  src: url(../../../assets/fonts/TungstenCond-Light.otf);
+}
+
+@font-face {
+  font-family: teko;
+  src: url(../../../assets/fonts/Teko-Light.ttf);
+}
+
 :root {
   --dark: rgb(49, 73, 120);
   --light: rgb(105, 205, 244);
@@ -103,8 +113,8 @@ a {
 p {
   display: flex;
   flex-direction: column;
-  color: rgb(24, 24, 24);
-  font-family: paralucent;
+  color: rgb(114, 114, 114);
+  font-family: teko;
   font-size: 15px;
   font-weight: 900;
   padding: 25px 25px 0 25px;
@@ -122,14 +132,20 @@ p {
 /* Button */
 .readMore,
 .send {
-  font-family: monospace;
+  font-family: teko;
+  letter-spacing: 3px;
+  font-size: 20pt;
   color: white;
-  padding: 5px 15px 5px 15px;
-  border-radius: 15px;
+  padding: 3px 25px 0px 25px;
+  border-radius: 20px;
   border: none;
   background-color: var(--light);
-  margin: 15px 15px 15px 0;
-  width: 130px;
+  margin: 30px 15px 10px 0;
+  width: fit-content;
+}
+
+.send {
+  padding: 3px 40px 0px 40px;
 }
 
 .readMore:hover,
@@ -298,11 +314,11 @@ button {
 
 /* job titles, companies and schools */
 h2 {
-  font-family: paralucent;
-  font-size: 23px;
+  font-family: tungsten;
+  letter-spacing: 3px;
+  font-size: 21pt;
   font-weight: 900;
   color: rgb(19, 19, 19);
-  letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
 
@@ -374,6 +390,9 @@ table {
 
 /* table headers */
 th {
+  font-family: tungsten;
+  letter-spacing: 3px;
+  font-size: 21pt;
   text-align: left;
   padding: 15px;
   text-align: center;
@@ -466,8 +485,8 @@ footer {
 footer a {
   color: var(--light);
   text-decoration: none;
-  font-family: paralucent;
-  font-size: 14px;
+  font-family: teko;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 
