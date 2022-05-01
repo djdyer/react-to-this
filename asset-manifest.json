@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-to-this/static/css/main.687b448a.css",
+    "main.css": "/react-to-this/static/css/main.53db9f2f.css",
     "main.js": "/react-to-this/static/js/main.41def0b3.js",
     "static/media/material_trader_mobiles.png": "/react-to-this/static/media/material_trader_mobiles.1a9ee2ad734f20008543.png",
     "static/media/pokego_mobile.png": "/react-to-this/static/media/pokego_mobile.39cbd6bda4dee0b6fc4c.png",
@@ -30,11 +30,11 @@
     "static/media/thehundreds.png": "/react-to-this/static/media/thehundreds.a4e0b5f0be9616c150d6.png",
     "static/media/530.png": "/react-to-this/static/media/530.ddacca73595cffab55c6.png",
     "index.html": "/react-to-this/index.html",
-    "main.687b448a.css.map": "/react-to-this/static/css/main.687b448a.css.map",
+    "main.53db9f2f.css.map": "/react-to-this/static/css/main.53db9f2f.css.map",
     "main.41def0b3.js.map": "/react-to-this/static/js/main.41def0b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.687b448a.css",
+    "static/css/main.53db9f2f.css",
     "static/js/main.41def0b3.js"
   ]
 }
