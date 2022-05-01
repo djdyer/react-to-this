@@ -115,13 +115,14 @@ p {
   flex-direction: column;
   color: rgb(114, 114, 114);
   font-family: teko;
-  font-size: 15px;
-  font-weight: 900;
+  font-size: 14pt;
+  font-weight: 500;
   padding: 25px 25px 0 25px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   box-sizing: content-box;
   margin: 0;
   border-radius: 0 18px 18px 0;
+  line-height: 98%;
 }
 
 /* Expanded Bio */
