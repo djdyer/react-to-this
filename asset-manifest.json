@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/react-to-this/static/css/main.ddcb0389.css",
-    "main.js": "/react-to-this/static/js/main.7859e649.js",
+    "main.css": "/react-to-this/static/css/main.687b448a.css",
+    "main.js": "/react-to-this/static/js/main.41def0b3.js",
     "static/media/material_trader_mobiles.png": "/react-to-this/static/media/material_trader_mobiles.1a9ee2ad734f20008543.png",
     "static/media/pokego_mobile.png": "/react-to-this/static/media/pokego_mobile.39cbd6bda4dee0b6fc4c.png",
     "static/media/casual_headshot.jpg": "/react-to-this/static/media/casual_headshot.6f341445c990ef3f7986.jpg",
     "static/media/tech_bros_home_demo.jpg": "/react-to-this/static/media/tech_bros_home_demo.076004021efb6e05ac45.jpg",
     "static/media/rainorshine_day.png": "/react-to-this/static/media/rainorshine_day.44a4936e93878f335456.png",
+    "static/media/fly_app.jpg": "/react-to-this/static/media/fly_app.2cf041e2976623c3f1e0.jpg",
     "static/media/code_quiz.jpg": "/react-to-this/static/media/code_quiz.fffce18d7a1e0a625732.jpg",
+    "static/media/Teko-Light.ttf": "/react-to-this/static/media/Teko-Light.f23c67d4379529eff2fc.ttf",
     "static/media/footer_background.png": "/react-to-this/static/media/footer_background.10a2e0359ccba1de28a2.png",
     "static/media/header_background.png": "/react-to-this/static/media/header_background.387c0b06d31f7952e1d0.png",
     "static/media/resume_button3.png": "/react-to-this/static/media/resume_button3.f1105e56ce40a6cfae99.png",
@@ -19,20 +21,20 @@
     "static/media/github_icon.png": "/react-to-this/static/media/github_icon.619fdd58a804ce7908c6.png",
     "static/media/email_icon.png": "/react-to-this/static/media/email_icon.1f45ce16dd51083ef637.png",
     "static/media/berkeley.png": "/react-to-this/static/media/berkeley.65c4daea66b24ac6361d.png",
+    "static/media/TungstenCond-Light.otf": "/react-to-this/static/media/TungstenCond-Light.da935a09d8f0c117e897.otf",
     "static/media/prestige_icon.png": "/react-to-this/static/media/prestige_icon.a9d1ba1c281ed5c1791c.png",
     "static/media/ucf.png": "/react-to-this/static/media/ucf.92699d2cb12ff63123ed.png",
     "static/media/valencia.png": "/react-to-this/static/media/valencia.3bb15f5280c9251d3ebf.png",
-    "static/media/prog_edit_screenshot.png": "/react-to-this/static/media/prog_edit_screenshot.7be0ea560bd3178bb9a1.png",
     "static/media/prestige_logo.png": "/react-to-this/static/media/prestige_logo.f2d7af173f3e25ddb347.png",
     "static/media/oaklandish.png": "/react-to-this/static/media/oaklandish.691ed1562d74ae968af0.png",
     "static/media/thehundreds.png": "/react-to-this/static/media/thehundreds.a4e0b5f0be9616c150d6.png",
     "static/media/530.png": "/react-to-this/static/media/530.ddacca73595cffab55c6.png",
     "index.html": "/react-to-this/index.html",
-    "main.ddcb0389.css.map": "/react-to-this/static/css/main.ddcb0389.css.map",
-    "main.7859e649.js.map": "/react-to-this/static/js/main.7859e649.js.map"
+    "main.687b448a.css.map": "/react-to-this/static/css/main.687b448a.css.map",
+    "main.41def0b3.js.map": "/react-to-this/static/js/main.41def0b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddcb0389.css",
-    "static/js/main.7859e649.js"
+    "static/css/main.687b448a.css",
+    "static/js/main.41def0b3.js"
   ]
 }
