@@ -15,23 +15,19 @@ export default function Header({ currentPage, handlePageChange }) {
               alt="Dyer Design Lettermark"
             />
           </a>
-          <h1 id="name">DYER DESIGN</h1>
+          <div>
+            <h1 id="name">DYER</h1>
+            <h1 id="name2">DESIGN</h1>
+          </div>
         </div>
-        <div>
-          <a
-            href="#about"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "h1active" : ""}
-          >
-            ABOUT
-          </a>
 
+        <div>
           <a
             href="#work"
             onClick={() => handlePageChange("Work")}
             className={currentPage === "Work" ? "h1active" : ""}
           >
-            WORK
+            <h1>WORK</h1>
           </a>
 
           <a
@@ -39,7 +35,15 @@ export default function Header({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Resume")}
             className={currentPage === "Resume" ? "h1active" : ""}
           >
-            RESUME
+            <h1>RESUME</h1>
+          </a>
+
+          <a
+            href="#about"
+            onClick={() => handlePageChange("About")}
+            className={currentPage === "About" ? "h1active" : ""}
+          >
+            <h1>ABOUT</h1>
           </a>
 
           <a
@@ -47,7 +51,7 @@ export default function Header({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Contact")}
             className={currentPage === "Contact" ? "h1active" : ""}
           >
-            CONTACT
+            <h1>CONTACT</h1>
           </a>
         </div>
       </nav>
