@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-to-this/static/css/main.53db9f2f.css",
-    "main.js": "/react-to-this/static/js/main.41def0b3.js",
+    "main.css": "/react-to-this/static/css/main.81f28ae6.css",
+    "main.js": "/react-to-this/static/js/main.7fe6db03.js",
     "static/media/material_trader_mobiles.png": "/react-to-this/static/media/material_trader_mobiles.1a9ee2ad734f20008543.png",
     "static/media/pokego_mobile.png": "/react-to-this/static/media/pokego_mobile.39cbd6bda4dee0b6fc4c.png",
     "static/media/casual_headshot.jpg": "/react-to-this/static/media/casual_headshot.6f341445c990ef3f7986.jpg",
@@ -9,6 +9,7 @@
     "static/media/rainorshine_day.png": "/react-to-this/static/media/rainorshine_day.44a4936e93878f335456.png",
     "static/media/fly_app.jpg": "/react-to-this/static/media/fly_app.2cf041e2976623c3f1e0.jpg",
     "static/media/code_quiz.jpg": "/react-to-this/static/media/code_quiz.fffce18d7a1e0a625732.jpg",
+    "static/media/dd_logo.png": "/react-to-this/static/media/dd_logo.e07f8caa96d31e762cd6.png",
     "static/media/Teko-Light.ttf": "/react-to-this/static/media/Teko-Light.f23c67d4379529eff2fc.ttf",
     "static/media/footer_background.png": "/react-to-this/static/media/footer_background.10a2e0359ccba1de28a2.png",
     "static/media/header_background.png": "/react-to-this/static/media/header_background.387c0b06d31f7952e1d0.png",
@@ -16,7 +17,6 @@
     "static/media/github_hover.png": "/react-to-this/static/media/github_hover.9b39ceb1921eca3c2279.png",
     "static/media/behance_icon.png": "/react-to-this/static/media/behance_icon.b307bbb30b35a89c836d.png",
     "static/media/linkedin_icon.png": "/react-to-this/static/media/linkedin_icon.6772d95f85d755baaf45.png",
-    "static/media/dd_logo.png": "/react-to-this/static/media/dd_logo.aa750ddf8d67e889f517.png",
     "static/media/instagram_icon.png": "/react-to-this/static/media/instagram_icon.6eeb33bc24170f6825e5.png",
     "static/media/github_icon.png": "/react-to-this/static/media/github_icon.619fdd58a804ce7908c6.png",
     "static/media/email_icon.png": "/react-to-this/static/media/email_icon.1f45ce16dd51083ef637.png",
@@ -30,11 +30,11 @@
     "static/media/thehundreds.png": "/react-to-this/static/media/thehundreds.a4e0b5f0be9616c150d6.png",
     "static/media/530.png": "/react-to-this/static/media/530.ddacca73595cffab55c6.png",
     "index.html": "/react-to-this/index.html",
-    "main.53db9f2f.css.map": "/react-to-this/static/css/main.53db9f2f.css.map",
-    "main.41def0b3.js.map": "/react-to-this/static/js/main.41def0b3.js.map"
+    "main.81f28ae6.css.map": "/react-to-this/static/css/main.81f28ae6.css.map",
+    "main.7fe6db03.js.map": "/react-to-this/static/js/main.7fe6db03.js.map"
   },
   "entrypoints": [
-    "static/css/main.53db9f2f.css",
-    "static/js/main.41def0b3.js"
+    "static/css/main.81f28ae6.css",
+    "static/js/main.7fe6db03.js"
   ]
 }
