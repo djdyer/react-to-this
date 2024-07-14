@@ -19,7 +19,6 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    // "postbuild": "./contrib/postbuild.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
